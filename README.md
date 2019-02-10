@@ -15,7 +15,7 @@
 * app-i18n/fcitx-configtool
 * app-i18n/fcitx-sunpinyin
 
-###burpsuite 锯齿字体问题
+### burpsuite 锯齿字体问题
 * 修改 /usr/bin/burpsuite 
   java -jar /opt/burpsuite/burpsuite_community_v1.7.36.jar >/dev/null 2>&1 &
   java -jar -Dawt.useSystemAAFontSettings=on /opt/burpsuite/burpsuite_community_v1.7.36.jar >/dev/null 2>&1 &

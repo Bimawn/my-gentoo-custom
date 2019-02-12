@@ -6,7 +6,7 @@
 ### i3wm 组件
 * i3blocks
 * i3lock
-
+* ranger
 ### 壁纸
 * feh
 ### 透明化

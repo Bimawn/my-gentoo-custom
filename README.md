@@ -28,7 +28,7 @@
 * 播放设备默认有*标记
  `$ pacmd list-sinks | grep -e 'name:' -e 'index:'`
 * 改变默认播放设备
-在/etc/pulse/default.pa追加 以下是我自己的hdmi声音设备配置
+在/etc/pulse/default.pa追加 以下是我自己的hdmi声音设备配置  
 `
 set-default-source alsa_output.pci-0000_02_00.1.hdmi-stereo.monitor
 `   

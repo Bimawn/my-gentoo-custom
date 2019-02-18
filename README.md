@@ -15,6 +15,7 @@
 * app-i18n/fcitx
 * app-i18n/fcitx-configtool
 * app-i18n/fcitx-sunpinyin
+* xautolock
 ### 常见问题
 #### burpsuite 锯齿字体问题
 * 修改 /usr/bin/burpsuite   
@@ -32,3 +33,5 @@
 set-default-source alsa_output.pci-0000_02_00.1.hdmi-stereo.monitor
 ...
 `   
+#### 休眠
+在i3config 中配置 `xautolock -time 30 -locker "sudo pm-suspend" &`

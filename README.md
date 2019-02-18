@@ -11,7 +11,7 @@
 * feh
 #### 透明化
 * Compton
-#### 输入法
+#### 中文输入法
 * app-i18n/fcitx
 * app-i18n/fcitx-configtool
 * app-i18n/fcitx-sunpinyin
